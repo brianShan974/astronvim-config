@@ -23,5 +23,6 @@ return {
     exclude = {} -- tabout will ignore these filetypes
   }
   end,
+  lazy = false,
 	after = {'nvim-cmp'} -- if a completion plugin is using tabs load it before
 }

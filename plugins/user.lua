@@ -37,4 +37,8 @@ return {
 	 --  after = {'nvim-cmp'}, -- if a completion plugin is using tabs load it before
 	 --  lazy = false
   -- },
+  {
+    "darfink/vim-plist",
+    lazy = false
+  }
 }

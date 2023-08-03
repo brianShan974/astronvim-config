@@ -1,14 +1,20 @@
+-- neovide config
 if vim.g.neovide then
   vim.g.neovide_fullscreen = true
 end
 
 
+-- vim-plist config
+vim.g.plist_display_format = "xml"
+vim.g.plist_save_format = ""
+
+
 -- ultisnips config
-vim.g.UltiSnipsSnippetDirectories = { "~/.config/nvim/lua/user/ultisnippets" }
-vim.g.UltiSnipsExpandTrigger= "<C-Tab>"
-vim.g.UltiSnipsJumpForwardTrigger = "<C-Tab>"
-vim.g.UltiSnipsJumpBackwardTrigger = "<C-S-Tab>"
-vim.g.UltiSnipsEditSplit = "vertical"
+-- vim.g.UltiSnipsSnippetDirectories = { "~/.config/nvim/lua/user/ultisnippets" }
+-- vim.g.UltiSnipsExpandTrigger= "<C-Tab>"
+-- vim.g.UltiSnipsJumpForwardTrigger = "<C-Tab>"
+-- vim.g.UltiSnipsJumpBackwardTrigger = "<C-S-Tab>"
+-- vim.g.UltiSnipsEditSplit = "vertical"
 
 
 return {
