@@ -7,7 +7,13 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
+
+  { import = "astrocommunity.bars-and-lines.lualine-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
+
+  { import = "astrocommunity.color.twilight-nvim" },
 
   { import = "astrocommunity.motion.leap-nvim" },
 
