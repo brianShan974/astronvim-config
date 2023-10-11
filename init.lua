@@ -9,6 +9,12 @@ vim.g.plist_display_format = "xml"
 vim.g.plist_save_format = ""
 
 
+-- leetcode.vim config
+vim.g.leetcode_browser = "chrome"
+vim.g.leetcode_solution_filetype = "rust"
+vim.g.leetcode_china = 1
+
+
 -- ultisnips config
 -- vim.g.UltiSnipsSnippetDirectories = { "~/.config/nvim/lua/user/ultisnippets" }
 -- vim.g.UltiSnipsExpandTrigger= "<C-Tab>"

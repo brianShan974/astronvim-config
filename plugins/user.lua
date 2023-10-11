@@ -49,4 +49,8 @@ return {
     }
     end
   },
+  {
+    "ianding1/leetcode.vim",
+    lazy = false
+  },
 }
