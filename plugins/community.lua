@@ -17,5 +17,8 @@ return {
 
   { import = "astrocommunity.motion.leap-nvim" },
 
+  { import = "astrocommunity.pack.java" },
+  { import = "astrocommunity.pack.rust" },
+
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
