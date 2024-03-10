@@ -19,6 +19,7 @@ return {
 
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.rust" },
+  { import = "astrocommunity.pack.python-ruff" },
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
