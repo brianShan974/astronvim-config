@@ -1,4 +1,5 @@
 local g = vim.g
+local o = vim.o
 
 -- neovide settings
 if g.neovide then
@@ -7,7 +8,8 @@ if g.neovide then
   g.neovide_cursor_vfx_particle_curl = 1.0
   g.neovide_cursor_vfx_particle_density = 20.0
   g.neovide_cursor_vfx_particle_lifetime = 1.8
-  g.neovide_transparency = 0.1
+  g.neovide_transparency = 0.3
+  o.guifont = "MonaspiceKr Nerd Font:h14"
 end
 
 return {

@@ -16,6 +16,7 @@ return {
   { import = "astrocommunity.color.transparent-nvim" },
 
   { import = "astrocommunity.motion.leap-nvim" },
+  { import = "astrocommunity.motion.tabout-nvim" },
 
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.rust" },
