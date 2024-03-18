@@ -1,4 +1,4 @@
-local ls = require("luasnip")
+local ls = require "luasnip"
 local s = ls.snippet
 local sn = ls.snippet_node
 local i = ls.insert_node
@@ -14,7 +14,7 @@ local get_visual = function(args, parent)
   end
 end
 
-local tex = require("util.latex")
+local tex = require "user.util.latex"
 
 return {
   s(

@@ -1,4 +1,4 @@
-local ls = require("luasnip")
+local ls = require "luasnip"
 local s = ls.snippet
 local sn = ls.snippet_node
 local t = ls.text_node
@@ -9,7 +9,7 @@ local fmta = require("luasnip.extras.fmt").fmta
 local rep = require("luasnip.extras").rep
 local line_begin = require("luasnip.extras.expand_conditions").line_begin
 
-local tex = require("util.latex")
+local tex = require "user.util.latex"
 
 local get_visual = function(args, parent)
   if #parent.snippet.env.SELECT_RAW > 0 then
@@ -21,88 +21,88 @@ end
 
 return {
   s({ trig = "sin", snippetType = "autosnippet" }, {
-    t("\\sin"),
+    t "\\sin",
   }, { condition = tex.in_mathzone }),
   s({ trig = "asin", snippetType = "autosnippet" }, {
-    t("\\arcsin"),
+    t "\\arcsin",
   }, { condition = tex.in_mathzone }),
   s({ trig = "cos", snippetType = "autosnippet" }, {
-    t("\\cos"),
+    t "\\cos",
   }, { condition = tex.in_mathzone }),
   s({ trig = "acos", snippetType = "autosnippet" }, {
-    t("\\arccos"),
+    t "\\arccos",
   }, { condition = tex.in_mathzone }),
   s({ trig = "tan", snippetType = "autosnippet" }, {
-    t("\\tan"),
+    t "\\tan",
   }, { condition = tex.in_mathzone }),
   s({ trig = "atan", snippetType = "autosnippet" }, {
-    t("\\arctan"),
+    t "\\arctan",
   }, { condition = tex.in_mathzone }),
   s({ trig = "cot", snippetType = "autosnippet" }, {
-    t("\\cot"),
+    t "\\cot",
   }, { condition = tex.in_mathzone }),
   s({ trig = "acot", snippetType = "autosnippet" }, {
-    t("\\arccot"),
+    t "\\arccot",
   }, { condition = tex.in_mathzone }),
   s({ trig = "csc", snippetType = "autosnippet" }, {
-    t("\\csc"),
+    t "\\csc",
   }, { condition = tex.in_mathzone }),
   s({ trig = "acsc", snippetType = "autosnippet" }, {
-    t("\\arccsc"),
+    t "\\arccsc",
   }, { condition = tex.in_mathzone }),
   s({ trig = "sec", snippetType = "autosnippet" }, {
-    t("\\sec"),
+    t "\\sec",
   }, { condition = tex.in_mathzone }),
   s({ trig = "asec", snippetType = "autosnippet" }, {
-    t("\\arcsec"),
+    t "\\arcsec",
   }, { condition = tex.in_mathzone }),
   s({ trig = "log", snippetType = "autosnippet" }, {
-    t("\\log"),
+    t "\\log",
   }, { condition = tex.in_mathzone }),
   s({ trig = "ln", snippetType = "autosnippet" }, {
-    t("\\ln"),
+    t "\\ln",
   }, { condition = tex.in_mathzone }),
   s({ trig = "exp", snippetType = "autosnippet" }, {
-    t("\\exp"),
+    t "\\exp",
   }, { condition = tex.in_mathzone }),
   s({ trig = "grad", snippetType = "autosnippet" }, {
-    t("\\grad"),
+    t "\\grad",
   }, { condition = tex.in_mathzone }),
   s({ trig = "curl", snippetType = "autosnippet" }, {
-    t("\\curl"),
+    t "\\curl",
   }, { condition = tex.in_mathzone }),
   s({ trig = "div", snippetType = "autosnippet" }, {
-    t("\\div"),
+    t "\\div",
   }, { condition = tex.in_mathzone }),
   s({ trig = "lap", snippetType = "autosnippet" }, {
-    t("\\laplacian"),
+    t "\\laplacian",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbr", snippetType = "autosnippet" }, {
-    t("\\mathbb{R}"),
+    t "\\mathbb{R}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbq", snippetType = "autosnippet" }, {
-    t("\\mathbb{Q}"),
+    t "\\mathbb{Q}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbh", snippetType = "autosnippet" }, {
-    t("\\mathbb{H}"),
+    t "\\mathbb{H}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbc", snippetType = "autosnippet" }, {
-    t("\\mathbb{C}"),
+    t "\\mathbb{C}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbz", snippetType = "autosnippet" }, {
-    t("\\mathbb{Z}"),
+    t "\\mathbb{Z}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbn", snippetType = "autosnippet" }, {
-    t("\\mathbb{N}"),
+    t "\\mathbb{N}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bb1", snippetType = "autosnippet" }, {
-    t("\\mathbbm{1}"),
+    t "\\mathbbm{1}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "bbe", snippetType = "autosnippet" }, {
-    t("\\mathbb{E}"),
+    t "\\mathbb{E}",
   }, { condition = tex.in_mathzone }),
   s({ trig = "exp", snippetType = "autosnippet" }, {
-    t("\\exp"),
+    t "\\exp",
   }, { condition = tex.in_mathzone }),
   s(
     { trig = "bar", snippetType = "autosnippet", priority = 2000 },
