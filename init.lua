@@ -12,6 +12,9 @@ if g.neovide then
   o.guifont = "MonaspiceKr Nerd Font:h14"
 end
 
+-- latex flavor
+g.tex_flavor = "latex"
+
 return {
   -- Configure AstroNvim updates
   updater = {
