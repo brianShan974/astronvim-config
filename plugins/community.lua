@@ -22,5 +22,9 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python-ruff" },
 
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
+  { import = "astrocommunity.utility.noice-nvim" },
+
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
