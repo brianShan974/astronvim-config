@@ -4,6 +4,8 @@ return {
   -- example of importing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
+  { import = "astrocommunity.bars-and-lines.heirline-mode-text-statusline" },
+
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
   { import = "astrocommunity.colorscheme.everforest" },
@@ -15,6 +17,10 @@ return {
 
   { import = "astrocommunity.color.transparent-nvim" },
 
+  { import = "astrocommunity.indent.mini-indentscope" },
+
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.tabout-nvim" },
 
@@ -22,9 +28,12 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python-ruff" },
 
-  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.test.nvim-coverage" },
 
   { import = "astrocommunity.utility.noice-nvim" },
+
+  { import = "astrocommunity.workflow.hardtime-nvim" },
 
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }
