@@ -20,6 +20,7 @@ return {
   { import = "astrocommunity.indent.mini-indentscope" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
 
   { import = "astrocommunity.motion.leap-nvim" },
   { import = "astrocommunity.motion.tabout-nvim" },

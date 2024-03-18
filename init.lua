@@ -12,8 +12,13 @@ if g.neovide then
   o.guifont = "MonaspiceKr Nerd Font:h14"
 end
 
--- latex flavor
+-- latex settings
 g.tex_flavor = "latex"
+if vim.fn.has "macunix" then
+  g.vimtex_view_method = "zathura"
+else
+  g.vimtex_view_method = "skim"
+end
 
 return {
   -- Configure AstroNvim updates
