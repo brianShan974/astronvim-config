@@ -25,7 +25,6 @@ local read_lines = function(file_name)
   for l in io.lines(file_name) do
     table.insert(lines, l)
   end
-  print(#lines)
   return lines
 end
 
