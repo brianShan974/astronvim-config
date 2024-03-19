@@ -35,6 +35,8 @@ return {
   opts = {
     history = true,
     delete_check_events = "TextChanged",
+    enable_autosnippets = true,
+    store_selection_keys = "`",
   },
   -- config = function()
   --   require("luasnip").config.set_config {

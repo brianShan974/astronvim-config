@@ -17,6 +17,8 @@ return {
 
   { import = "astrocommunity.color.transparent-nvim" },
 
+  { import = "astrocommunity.debugging.nvim-bqf" },
+
   { import = "astrocommunity.indent.mini-indentscope" },
 
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
@@ -26,6 +28,23 @@ return {
   { import = "astrocommunity.motion.tabout-nvim" },
 
   { import = "astrocommunity.pack.java" },
+  {
+    "mfussenegger/nvim-jdtls",
+    opts = {
+      settings = {
+        java = {
+          configuration = {
+            runtimes = {
+              {
+                name = "JavaSE-17",
+                path = "/usr/lib/jvm/java-17-openjdk/",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.python-ruff" },
 

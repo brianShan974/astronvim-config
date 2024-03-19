@@ -19,6 +19,7 @@ if vim.fn.has "macunix" then
 else
   g.vimtex_view_method = "skim"
 end
+g.vimtex_compiler_silent = 1
 
 return {
   -- Configure AstroNvim updates
